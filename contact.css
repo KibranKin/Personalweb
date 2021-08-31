@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Start of Header styling*/
+.header{
+    display:flex;
+    justify-content: space-around;
+    background-color: #1a201f;
+    top:0;
+    z-index: 999;
+    height:50px;
+    position: sticky;
+    padding-top: 30px;
+}
+.nav-item{
+    display:flex;
+    list-style-type: none;
+}
+.nav-links{
+    color:white;
+    text-decoration: none;
+    padding: 40px 10px;
+}
+.nav-links:hover{
+    color: #ffd343;
+    border-top: 2px solid red;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.logo:hover{
+    color:#ffd343;
+}
+.btn{
+    border: 1px solid white;
+    background-color:black;
+    color: white;
+    padding: 2px 4px;
+    border-radius:4px;
+    text-decoration: none;
+
+}
+.btn:hover{
+    cursor: pointer;
+    color: #ffd343;
+    border: 1px solid #ffd343;
+}
+
+/* End of Main styling*/
+/* Start of Main styling*/
+body{
+    background-color:#1a201f;
+}
+.form{
+margin-top: 60px;
+color: white;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.fname{
+    width: 600px;
+    height: 30px;
+}
+.lname{
+    width: 600px;
+    height: 30px;
+}
+.email{
+    width: 600px;
+    height: 30px;
+}
+.subject{
+    width: 600px;
+    height: 30px;
+}
+.name{
+    justify-items: center;
+    align-items: center;
+    padding-left: 320px;
+}
+.submit{
+    margin-left: 320px;
+    margin-top: 5px;
+    padding:5px 10px;
+    background-color:#1a201f;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.submit:hover{
+    cursor: pointer;
+    color: #ffd343;
+    border: 1px solid #ffd343;
+
+}
+.sub{
+    text-decoration: none;
+    color: white;
+    /*background-color:#1a201f;*/
+}
+.sub:hover{
+    cursor: pointer;
+    color: #ffd343;
+   
+}
+/* End of main styling */
+/* Begining of footer styling */
+.footer{
+    background-color: #1a201f;
+    border-top: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    height: 80px;
+    padding-top: 20px;
+    margin-top:250Px;
+}
+.socials-links {
+    text-decoration: none;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.socials-links:hover{
+    text-decoration:underline white 2px;
+}
+.social{
+    list-style-type: none;
+}
+.title{
+    font-weight: bolder;
+}
+/* End of footer styling */
