@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Start of header styling*/
+.header{
+    display:flex;
+    justify-content: space-around;
+    background-color: #1a201f;
+    top:0;
+    z-index: 999;
+    height:40px;
+    position: sticky;
+    padding-top: 20px;
+}
+.nav-item{
+    display:flex;
+    list-style-type: none;
+}
+.nav-links{
+    color:white;
+    text-decoration: none;
+    padding: 40px 10px;
+}
+.nav-links:hover{
+color: #ffd343;
+
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.logo:hover{
+    color:#ffd343;
+}
+.btn{
+    border: 1px solid white;
+    background-color:black black;
+    color: white;
+    padding: 2px 4px;
+    border-radius:4px;
+    text-decoration: none;
+
+}
+.btn:hover{
+    cursor: pointer;
+    color: #ffd343;
+    background-color:black;
+    border: 1px solid #ffd343;
+}
+/*end of header styling*/
+
+/* Start of main styling*/
+    
+    
+body{
+    background-color:#1a201f;
+    color: white;
+}
+.avator{
+text-align: center;
+}
+.noah{
+    height:200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10000px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.work-link{
+    text-decoration: none;
+    color: #22b8f0;
+}
+.work-link:hover{
+    color: #ffd343;
+}
+.educ{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.skills{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.exp{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.work{
+    padding-top: 10px;
+
+}
+.school{
+    padding-top: 10px;
+}
+.code{
+    padding-top: 10px;
+}
+.touch{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.button{
+    margin-top: 10px;
+    border: 1px solid white;
+    color: white;
+    background-color:black;
+    padding: 5px;
+    border-radius: 4px;
+}
+.button:hover{
+    border: 1px solid #ffd343;
+    cursor: pointer;
+    color:#ffd343
+}
+.cont{
+    text-decoration: none;
+    color: white;
+}
+.cont:hover{
+    color:#ffd343;
+}
+/* Start of footer styling*/
+.footer{
+    background-color: #1a201f;
+    border-top: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    height: 80px;
+    padding-top: 20px;
+    margin-top:250Px;
+}
+
+.socials-links {
+    text-decoration: none;
+    color:#22b8f0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.socials-links:hover{
+    color:#ffd343;
+    transition: 0.3s;
+   
+}
+.social{
+    list-style-type: none;
+}
+.title{
+    font-weight: bolder;
+}
+/*end of footer styling*/
